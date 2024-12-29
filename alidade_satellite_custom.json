@@ -11,12 +11,9 @@
   },
   "layers": [
     {
-      "id": "street-labels",
-      "type": "symbol",
-      "source": "mapbox",
-      "layout": {
-        "visibility": "none"
-      }
+      "id": "satellite",
+      "type": "raster",
+      "source": "mapbox"
     }
   ]
 }
