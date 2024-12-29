@@ -15,5 +15,22 @@
       "type": "raster",
       "source": "mapbox"
     }
+  ],
+  "sprite": "https://path-to-your-sprite-file",
+  "glyphs": "https://your-glyphs-url/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "satellite",
+      "type": "raster",
+      "source": "mapbox"
+    },
+    {
+      "id": "labels",
+      "type": "symbol",
+      "source": "mapbox",
+      "layout": {
+        "visibility": "none"
+      }
+    }
   ]
 }
