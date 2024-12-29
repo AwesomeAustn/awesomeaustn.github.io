@@ -4,7 +4,7 @@
     "mapbox": {
       "type": "raster",
       "tiles": [
-        "https://tiles.stadiamaps.com/styles/alidade_satellite/{z}/{x}/{y}.png"
+        "https://tiles.stadiamaps.com/styles/alidade_satellite/{z}/{x}/{y}.png?api_key=6d3c152d-49cd-4aa8-8515-6b6ef59e7cd9"
       ],
       "tileSize": 256
     }
